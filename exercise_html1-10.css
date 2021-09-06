@@ -22,6 +22,9 @@ main {
   position: relative;
   background-color: #eee;
 }
+.step-box:last-child {
+  margin-right: 0;
+}
 
 .step-img1 {
   height: 150px;
@@ -72,6 +75,10 @@ footer {
   .step-box {
     width: 90%;
     padding: 10px;
+    margin: 20px auto;
+  }
+
+  .step-box:last-child {
     margin: 20px auto;
   }
 }
